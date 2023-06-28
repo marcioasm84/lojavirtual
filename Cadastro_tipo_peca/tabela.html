@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta dos tipos de peça</title>
+</head>
+<body>
+
+  <div class="container">
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Nome</th>
+    <th>Ação</th>
+  </tr>
+  <tr>
+    <td>0001</td>
+    <td>Camisa</td>
+    <td>Excluir</td>
+  </tr>
+  <tr>
+    <td>0002</td>
+    <td>Short</td>
+    <td>Excluir</td>
+  </tr>
+  <tr>
+    <td>0003</td>
+    <td>Tênis</td>
+    <td>Excluir</td>
+  </tr>
+</table>
+</div>
+
+    <button class="botaolink">
+    <a href="index.html">
+        Formulário de cadastro
+    </a>
+    </button>
+
+
+</body>
+
+<style>
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+   table {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 4px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+.botaolink {
+      display: block;
+      margin: 10px auto;
+      width: 250px;
+      height: 30px;
+    }
+
+    a{
+      text-decoration: none;
+      color: black;
+    }
+
+</style>
+
+</html>
